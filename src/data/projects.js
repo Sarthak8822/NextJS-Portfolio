@@ -3,11 +3,11 @@ const projects = [
     title: "Job-Portal Website",
     description:
     "A job-portal web application developed using Next.js, Material UI, Tailwind, and MongoDB.",
-    icon: "/logo/reactjs.webp",
+    icon: "/logo/nextjs.webp",
     sceenshots: [],
     githubUrl: "https://github.com/Sarthak8822/Job-Portal-Website",
     repoType: "public",
-    tags: ["React.js", "Node.js", "Redux", "Material UI", "Stripe"],
+    tags: ["NextJS", "Node.js", "Redux", "Material UI", "Stripe"],
   },
   {
     title: "Resume-Builder App",
@@ -29,7 +29,7 @@ const projects = [
     githubUrl: "https://githubfinder82.netlify.app",
     url: "https://githubfinder82.netlify.app",
     repoType: "public",
-    tags: ["ReactJS", "Reduxm, Node.js, GithubAPI"],
+    tags: ["ReactJS", "Redux" , "Node.js" , "GithubAPI"],
   },
   {
     title: "Agenda App",
@@ -45,7 +45,7 @@ const projects = [
     title: "Food-Order Application",
     description:
       "A food-ordering web application developed using Flutter, BloC, Hive DB and PDF.",
-    icon: "/logo/flutter.webp",
+    icon: "/logo/reactjs.webp",
     sceenshots: [],
     githubUrl: "https://github.com/Sarthak8822/Food-Order-System",
     repoType: "private",

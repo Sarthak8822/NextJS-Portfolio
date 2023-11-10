@@ -1,5 +1,3 @@
-"use client";
-
 import { useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +14,7 @@ import useIsInViewport from "@/hooks/useIsInViewport";
 
 const HomeSection1 = ({ current, setCurrent }) => {
   const homeRef = useRef(null);
-
+  
   const isInView = useIsInViewport(homeRef);
 
   const onHandleClickTalkBtn = () => {
@@ -25,6 +23,12 @@ const HomeSection1 = ({ current, setCurrent }) => {
     window.open(Strings.telegramLink, "_blank");
   };
 
+  const onHandleResumeBtn = () =>{
+    window.open(Strings.resumeLink, "_blank");
+  }
+
+  
+  
   useEffect(() => {
     if (isInView && current !== "about") setCurrent("about");
 
@@ -51,12 +55,18 @@ const HomeSection1 = ({ current, setCurrent }) => {
             <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
               {About.description}
             </p>
-
-            <FilledButton
-              label="Let's Talk"
-              onClick={onHandleClickTalkBtn}
-              className="mt-8 min-w-[10rem]"
-            />
+            <div className="flex justify-evenly gap-4">
+              <FilledButton
+                label="Let's Talk"
+                onClick={onHandleClickTalkBtn}
+                className="mt-8 min-w-[10rem]"
+              />
+              <FilledButton
+                label="My Resume"
+                onClick={onHandleResumeBtn}
+                className="mt-8 min-w-[10rem]"
+              />
+            </div>
 
             <Column classes="mt-8">
               <p className="text-md font-semibold">{About.followText}</p>

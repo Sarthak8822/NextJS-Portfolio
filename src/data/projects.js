@@ -15,7 +15,7 @@ const projects = [
     "A log search web application developed using Next.js, Node.js, Tailwind, and MongoDB.",
     icon: "/logo/nextjs.webp",
     sceenshots: [],
-    githubUrl: "https://github.com/Sarthak8822/Job-Portal-Website",
+    githubUrl: "https://github.com/Sarthak8822/Log-Store",
     repoType: "public",
     tags: ["NextJS", "Node.js", "Local State Management", "Tailwind"],
   },

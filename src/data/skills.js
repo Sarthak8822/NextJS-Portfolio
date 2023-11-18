@@ -25,6 +25,11 @@ const skills = [
     icon: "/logo/html.webp",
   },
   {
+    title: "React Native",
+    level: "⭐⭐",
+    icon: "/logo/reactjs.webp",
+  },
+  {
     title: "CSS",
     level: "⭐⭐⭐",
     icon: "/logo/css.webp",

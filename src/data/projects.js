@@ -7,7 +7,17 @@ const projects = [
     sceenshots: [],
     githubUrl: "https://github.com/Sarthak8822/Job-Portal-Website",
     repoType: "public",
-    tags: ["NextJS", "Node.js", "Redux", "Material UI", "Stripe"],
+    tags: ["NextJS", "Node.js", "Redux", "Material UI"],
+  },
+  {
+    title: "Log Store",
+    description:
+    "A log search web application developed using Next.js, Node.js, Tailwind, and MongoDB.",
+    icon: "/logo/nextjs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/Sarthak8822/Job-Portal-Website",
+    repoType: "public",
+    tags: ["NextJS", "Node.js", "Local State Management", "Tailwind"],
   },
   {
     title: "Resume-Builder App",
@@ -30,6 +40,16 @@ const projects = [
     url: "https://githubfinder82.netlify.app",
     repoType: "public",
     tags: ["ReactJS", "Redux" , "Node.js" , "GithubAPI"],
+  },
+  {
+    title: "Snake Game",
+    description:
+      "A Snake Game developed using React-Native.",
+    icon: "/logo/reactjs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/Sarthak8822/Snake",
+    repoType: "public",
+    tags: ["React Native"],
   },
   {
     title: "Agenda App",

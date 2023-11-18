@@ -47,7 +47,7 @@ const projects = [
       "A Snake Game developed using React-Native.",
     icon: "/logo/reactjs.webp",
     sceenshots: [],
-    githubUrl: "https://github.com/Sarthak8822/Snake",
+    githubUrl: "https://github.com/Sarthak8822/Snake-Game",
     repoType: "public",
     tags: ["React Native"],
   },

@@ -3,7 +3,7 @@ class Strings {
   static telegramLink = "https://telegram.me/sortex82";
   static telegramUsername = "sortex";
 
-  static resumeLink = "http://bit.ly/3FSilJD"
+  static resumeLink = "https://tinyurl.com/muhcufyf"
 
   static github = "GitHub";
   static githubLink = "https://www.github.com/Sarthak8822";

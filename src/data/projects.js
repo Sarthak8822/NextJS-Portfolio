@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Group Settle App",
+    description:
+    "A Bill Splitting Application developed using React Native, Golang and MongoDB.",
+    icon: "/logo/reactjs.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/Sarthak8822/GroupSettle",
+    repoType: "public",
+    tags: ["ReactNative", "Golang", "MongoDB"],
+  },
+  {
     title: "Job-Portal Website",
     description:
     "A job-portal web application developed using Next.js, Material UI, Tailwind, and MongoDB.",
@@ -18,6 +28,16 @@ const projects = [
     githubUrl: "https://github.com/Sarthak8822/Log-Store",
     repoType: "public",
     tags: ["NextJS", "Node.js", "Local State Management", "Tailwind"],
+  },
+  {
+    title: "Fampay Assignment",
+    description:
+    "Created an API to fetch the latest YouTube videos for a given search query and store them in a MongoDB database. Provide a paginated API to retrieve the stored videos in reverse chronological order using Golang and MongoDB",
+    icon: "/logo/golang.webp",
+    sceenshots: [],
+    githubUrl: "https://github.com/Sarthak8822/Fampay-Assignment",
+    repoType: "public",
+    tags: ["Golang", "MongoDB"],
   },
   {
     title: "Resume-Builder App",

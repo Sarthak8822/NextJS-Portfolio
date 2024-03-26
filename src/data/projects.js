@@ -16,8 +16,9 @@ const projects = [
     icon: "/logo/nextjs.webp",
     sceenshots: [],
     githubUrl: "https://github.com/Sarthak8822/Job-Portal-Website",
+    url: "https://job-hunt-123.vercel.app",
     repoType: "public",
-    tags: ["NextJS", "Node.js", "Redux", "Material UI"],
+    tags: ["NextJS", "Node.js", "Tailwind", "MongoDB", "API"],
   },
   {
     title: "Log Store",
